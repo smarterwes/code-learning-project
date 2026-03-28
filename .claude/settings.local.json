@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(npx tsc:*)",
+      "Bash(grep -E \"\\\\.ts$|\\\\.tsx$\")",
+      "Bash(grep -n \"return project\" \"C:/Users/wesle/Documents/CLAUDE/CLAUDE CODE PROJECTS/CODE LEARNING PROJECT 260308/src/actions\"/*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npx kill-port:*)",
+      "Bash(taskkill //F //FI 'WINDOWTITLE eq npm*')",
+      "Bash(netstat -aon)",
+      "Bash(npx vitest:*)",
+      "Bash(npm audit:*)",
+      "Bash(npm view:*)",
+      "Bash(node -e \"const v=require\\(''''fs''''\\).readFileSync\\(''''/dev/stdin'''',''''utf8''''\\); const versions=JSON.parse\\(v\\); console.log\\(versions.filter\\(v => v.startsWith\\(''''5.''''\\)\\).sort\\(\\).slice\\(-10\\).join\\(''''\\\\n''''\\)\\)\")",
+      "Bash(node -e \"process.stdin.resume\\(\\);let d='''''''';process.stdin.on\\(''''data'''',c=>d+=c\\);process.stdin.on\\(''''end'''',\\(\\)=>{const v=JSON.parse\\(d\\);console.log\\(v.slice\\(-5\\).join\\(''''\\\\n''''\\)\\)}\\)\")",
+      "Bash(npm pack:*)",
+      "Bash(cd /tmp)",
+      "Bash(tar -tzf ai-6.0.134.tgz)",
+      "Bash(grep \"\\\\.d\\\\.ts$\")",
+      "Bash(tar -xzf ai-6.0.134.tgz package/dist/index.d.ts)",
+      "Read(//tmp/package/dist/**)",
+      "Bash(tar -xzf ai-6.0.134.tgz package/CHANGELOG.md)",
+      "Read(//tmp/package/**)",
+      "Bash(tar -xzf ai-sdk-react-3.0.136.tgz package/dist/index.d.ts)",
+      "Read(//tmp/**)",
+      "Bash(tar -xzf ai-6.0.134.tgz package/dist/index.d.ts -O)",
+      "Bash(tar -tzf ai-sdk-provider-3.0.8.tgz)",
+      "Bash(npm test:*)",
+      "mcp__playwright__browser_navigate",
+      "Skill(update-config)",
+      "Bash(find C:/Users/wesle/.claude -name *.json)",
+      "Bash(xargs grep:*)",
+      "mcp__playwright__browser_type",
+      "mcp__playwright__browser_wait_for",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_click"
+    ]
+  }
+}
